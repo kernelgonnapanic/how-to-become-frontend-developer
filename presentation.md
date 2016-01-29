@@ -26,6 +26,7 @@ Note:
 - w 3 miesiace bardzo duzo
 - czego sie nauczyc, jak zostac junior front-end developerem
 - na 2 etapy - narzedzia + tips & tricks
+
 ---
 
 ##Moja historia
