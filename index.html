@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Reveal.js</title>
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="styles.css" id="theme">
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+
+        <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+        <script>
+          document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+        </script>
+    </head>
+    <body>
+
+        <div class="reveal">
+            <div class="slides"><section  data-markdown><script type="text/template">Jak zostać front-end developerem w 3 miesiące?
+===
+![logos](html-css-js.png)
+</script></section><section  data-markdown><script type="text/template">
+## O mnie
+<div class="photo">
+![ania](zdjecie.jpg)
+</div>
+<div class="photo-info">
+Anna Konopka
+- front-end developer w PGS Software
+- współorganizatorka spotkań wrocławskich Karotek
+- prowadząca blog [Bookie & Cookie](bookieandcookie.blogspot.com)
+</script></section><section  data-markdown><script type="text/template">
+
+##Czy da się?
+
+</script></section><section  data-markdown><script type="text/template">
+##Moja historia
+
+![](ggc-ania.jpg)
+<!-- .element: style="width:350px;" -->
+
+</script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="super.gif" -->
+
+##Front-end jest super!
+<!--.element: style="color:white; text-shadow: 0 0 10px black; position: relative; top: 350px;"  -->
+
+</script></section><section  data-markdown><script type="text/template">
+##GIT
+<div class="photo">
+![](git-icon.png)
+<!--.element: style="width:400px; "  -->
+</div>
+<div class="photo-info">
+- git init
+- git add
+- git commit
+- git branch
+- git checkout
+- git status
+- git log
+- git push/pull
+
+</script></section><section  data-markdown><script type="text/template">
+## Node.js + npm
+<div class="photo">
+![](node.png)
+</div>
+<div class="photo-info">
+![](npm-logo.png)
+
+</script></section><section  data-markdown><script type="text/template">
+#bower
+![](Bower.png)
+<!--.element: style="width:400px"  -->
+
+</script></section><section  data-markdown><script type="text/template">
+#Narzędzia do budowania
+![](grunt.png)
+![](gulp.png)
+<!--.element: style="width: 200px; padding-left: 70px"  -->
+![](webpack.png)
+<!--.element: style="width: 300px;"  -->
+
+</script></section><section  data-markdown><script type="text/template">
+#Chrome DevTools
+![](devTools.png)
+<!--.element: style="border: 1px solid #586e75"  -->
+[Chrome DevTools - intro](https://developer.chrome.com/devtools)
+
+</script></section><section  data-markdown><script type="text/template">
+## Tips & tricks
+
+</script></section><section  data-markdown><script type="text/template">
+##Trzeba chcieć się uczyć!
+![](yoda.jpg)
+<!--.element: style="width:600px;"  -->
+
+</script></section><section  data-markdown><script type="text/template">
+![](so-logo.png)
+<!--.element: style="width:450px;"  -->
+![](codecademy.png)
+<!--.element: style="width:450px;"  -->
+![](code_school.png)
+<!--.element: style="width:450px;"  -->
+![](khan.png)
+<!--.element: style="width:450px;"  -->
+
+[blogpost: 5 najlepszych platform do nauki programowania](http://bookieandcookie.blogspot.com/2015/09/5-najlepszych-platform-do-nauki-programowania.html)
+
+</script></section><section  data-markdown><script type="text/template">
+##Github - portfolio
+![](portfolio.png)
+<!--.element: style="width:800px;"  -->
+
+</script></section><section  data-markdown><script type="text/template">
+![](brace.jpg)
+<!--.element: style="width:600px;"  -->
+
+[Pytania rekrutacyjne - front-end](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/Translations/Polish/README.md)<br/>
+[Wymagania dla front-end developera](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers)
+</script></section><section  data-markdown><script type="text/template">
+##Bądź na bieżąco
+
+[![](smashing.png)](https://www.smashingmagazine.com/)
+
+</script></section><section  data-markdown><script type="text/template">
+##Rozwój - morze możliwości
+<!--.element: style="color:white; text-shadow: 0 0 10px black;"  -->
+
+<!--.slide: data-background="./sea.gif"  -->
+
+</script></section><section  data-markdown><script type="text/template">
+##Pytania?
+</script></section><section  data-markdown><script type="text/template">
+![](thanks.gif)
+<!--.element: style="width:1900px;"  -->
+</script></section></div>
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+
+        <script>
+            function extend() {
+              var target = {};
+              for (var i = 0; i < arguments.length; i++) {
+                var source = arguments[i];
+                for (var key in source) {
+                  if (source.hasOwnProperty(key)) {
+                    target[key] = source[key];
+                  }
+                }
+              }
+              return target;
+            }
+
+            // Optional libraries used to extend on reveal.js
+            var deps = [
+              { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+              { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+              { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+              { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+              { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+              { src: 'plugin/math/math.js', async: true }
+            ];
+
+            // default options to init reveal.js
+            var defaultOptions = {
+              controls: true,
+              progress: true,
+              history: true,
+              center: true,
+              transition: 'default',
+              dependencies: deps
+            };
+
+            // options from URL query string
+            var queryOptions = Reveal.getQueryHash() || {};
+
+            var options = {
+  "theme": "styles.css"
+};
+            options = extend(defaultOptions, options, queryOptions);
+            Reveal.initialize(options);
+        </script>
+    </body>
+</html>
